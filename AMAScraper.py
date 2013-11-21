@@ -72,6 +72,8 @@ def main():
 		if didOPReply(x):
 			# Draw a delimiter
 			f.write(tabs() + '='*80 +'\n\n')
+	
+	f.close()
 
 
 if __name__ == "__main__":
